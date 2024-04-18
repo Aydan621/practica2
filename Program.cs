@@ -7,6 +7,11 @@ class Program
         int choice;
         do
         {
+            Console.WriteLine("Выберите действие:");
+            Console.WriteLine("1. Сложение");
+            Console.WriteLine("2. Вычитание");
+            Console.WriteLine("3. Умножение");
+            Console.WriteLine("4. Деление");
 
             choice = Convert.ToInt32(Console.ReadLine());
 
