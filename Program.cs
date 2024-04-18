@@ -52,7 +52,7 @@ class Program
                         Console.WriteLine("Деление на ноль невозможно.");
                     }
                     break;
-              
+<<<<<< part2              
 case 5:
     Console.WriteLine("Введите основание:");
     double baseNum = Convert.ToDouble(Console.ReadLine());
